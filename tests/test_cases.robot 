@@ -1,0 +1,13 @@
+*** Settings ***
+Resource    resources/keywords.robot
+Resource    resources/variables.robot
+
+*** Test Cases ***
+Create Quote for Car
+    Open Insurance Application
+    Enter Vehicle Data for Automobile
+    Enter Insurant Data
+    Enter Product Data
+    Select Price Option
+    Send Quote
+    End Test
